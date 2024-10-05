@@ -1,0 +1,15 @@
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\ProyectoHotelReserva.exe.config
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\ProyectoHotelReserva.exe
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\ProyectoHotelReserva.pdb
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\CapaNegocio.dll
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\CapaDatos.dll
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\CapaNegocio.pdb
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\bin\Debug\CapaDatos.pdb
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.csproj.AssemblyReference.cache
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\CapaPresentacion.Form1.resources
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.Properties.Resources.resources
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.csproj.GenerateResource.cache
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\Proyecto.6AD63451.Up2Date
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.exe
+C:\Users\USUARIO\source\repos\ProyectoHotelReserva\obj\Debug\ProyectoHotelReserva.pdb

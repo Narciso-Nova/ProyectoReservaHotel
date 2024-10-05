@@ -1,0 +1,70 @@
+--CREATE TABLE Reservas (
+--    ReservaId INT PRIMARY KEY IDENTITY(1,1),
+--    NombreCliente NVARCHAR(100),
+--    FechaEntrada DATE,
+--    FechaSalida DATE,
+--    NumeroHabitacion INT,
+--    Estado NVARCHAR(50)
+--);
+--CREATE TABLE Reservas (
+--    ReservaId INT PRIMARY KEY IDENTITY(1,1),
+--    NombreCliente VARCHAR(100) NOT NULL,
+--    FechaEntrada DATETIME NOT NULL,
+--    FechaSalida DATETIME NOT NULL,
+--    NumeroHabitacion INT NOT NULL,
+--    Estado VARCHAR(50) NOT NULL
+--);
+--SELECT * FROM Reservas;
+--CREATE PROCEDURE InsertarReserva
+--    @NombreCliente VARCHAR(100),
+--    @FechaEntrada DATETIME,
+--    @FechaSalida DATETIME,
+--    @NumeroHabitacion INT,
+--    @Estado VARCHAR(50)
+--AS
+--BEGIN
+--    INSERT INTO Reservas (NombreCliente, FechaEntrada, FechaSalida, NumeroHabitacion, Estado)
+--    VALUES (@NombreCliente, @FechaEntrada, @FechaSalida, @NumeroHabitacion, @Estado)
+--END;
+--CREATE PROCEDURE ConsultarReservas
+--AS
+--BEGIN
+--    SELECT * FROM Reservas;
+--END;
+--CREATE PROCEDURE ActualizarReserva
+--    @ReservaId INT,
+--    @NombreCliente VARCHAR(100),
+--    @FechaEntrada DATETIME,
+--    @FechaSalida DATETIME,
+--    @NumeroHabitacion INT,
+--    @Estado VARCHAR(50)
+--AS
+--BEGIN
+--    UPDATE Reservas
+--    SET NombreCliente = @NombreCliente,
+--        FechaEntrada = @FechaEntrada,
+--        FechaSalida = @FechaSalida,
+--        NumeroHabitacion = @NumeroHabitacion,
+--        Estado = @Estado
+--    WHERE ReservaId = @ReservaId;
+--END;
+--CREATE PROCEDURE EliminarReserva
+--    @ReservaId INT
+--AS
+--BEGIN
+--    DELETE FROM Reservas
+--    WHERE ReservaId = @ReservaId;
+--END;
+--EXEC InsertarReserva 'Carlos Gómez', '2024-10-08', '2024-10-12', 102, 'Confirmada';
+--SELECT * FROM Reservas;
+--EXEC ConsultarReservas;
+----EXEC ActualizarReserva 1, 'Carlos López', '2024-10-09', '2024-10-13', 103, 'Confirmada';
+--SELECT * FROM Reservas WHERE ReservaId = 1;
+--SELECT * FROM Reservas;
+
+--EXEC InsertarReserva 'Carlos Gómez', '2024-10-08', '2024-10-12', 102, 'Confirmada';
+--SELECT * FROM Reservas;
+--EXEC ActualizarReserva 2, 'Pedro López', '2024-10-05', '2024-10-07', 101, 'Confirmada';
+--SELECT * FROM Reservas WHERE ReservaId = 2;
+--EXEC EliminarReserva 3;
+--SELECT * FROM Reservas WHERE ReservaId = 3;
